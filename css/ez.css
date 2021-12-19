@@ -17,8 +17,7 @@
 }
 
 .ez .ez-title h1 span {
-    float: left;
-    margin-right: -16px;
+    margin-left: -20px;
     font-size: 30px;
     background-color: #ff6700;
     color: #fff;
@@ -57,4 +56,76 @@
 .ez-list p>img {
     width: 80% !important;
     height: 80% !important;
+}
+
+.guess-you-like {
+    width: 1200px;
+    height: 456px;
+}
+
+.guess-you-like-title {
+    height: 40px;
+    line-height: 42px;
+    font-size: 24px;
+    color: #ff6700;
+    border-bottom: 6px solid #ff6700;
+    background: #fff;
+    text-indent: 20px;
+}
+
+.guess-you-like-title h1 {
+    color: black;
+    font-weight: 200;
+}
+
+.guess-you-like-title h1 span {
+    margin-left: -20px;
+    font-size: 30px;
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.guess-you-like-content {
+    width: 1200px;
+    height: 500px;
+    background-color: green;
+}
+
+
+/* 上下滑动 */
+
+
+/* .out-box {
+    overflow: hidden;
+}
+
+.inner-box {
+    height: 1500px;
+    position: relative;
+    top: 0;
+} */
+
+
+/* 左右滑动的版本 */
+
+.out-box {
+    /* 超出隐藏 */
+    overflow: hidden;
+}
+
+.inner-box {
+    width: 4800px;
+    position: relative;
+    left: 0;
+}
+
+.guess-you-like-content li {
+    width: 1200px;
+    height: 500px;
+    float: left;
+}
+
+.guess-you-like-content li img {
+    width: 100%;
+    height: 100%;
 }
