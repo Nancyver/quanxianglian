@@ -1,0 +1,42 @@
+.model {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* 居中 第三种方法 */
+    /* 扩展 */
+    /* display: flex; */
+    /* 水平居中 */
+    /* justify-content: center; */
+    /* 垂直居中 */
+    /* align-items: center; */
+    display: none;
+}
+
+.model .content {
+    width: 400px;
+    height: 250px;
+    background-color: red;
+    /* 居中 第一种方法 */
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+    /* 居中 第二种方法 */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -200px; */
+    /* CS3的居中方法 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+}
